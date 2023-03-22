@@ -1,0 +1,105 @@
+{% extends 'dashboard.html' %}
+{% block body %}
+
+<form id="form1" name="form1" method="post" action="##">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <table>
+                            <thead>
+                            <tr>
+                                <div class="form-group row">
+                                    <label for="hospital" class="card-title col-sm-3 col-form-label">Plan Your Next Tour!</label>
+                                    <div class="col-sm-9">
+                                        <div class="input-group">
+                                            <input type="date" name="f_date" class="form-control"/>
+                                            <input class="form-control" type="text" list="mylist" placeholder="Where would you like to go?">
+                                                <datalist id="mylist">
+                                                    <option>London</option>
+                                                    <option>Canada</option>
+                                                    <option>Monaco</option>
+                                                    <option>France</option>
+                                                    <option>Japan</option>
+                                                    <option>Switzerland</option>
+                                                    <option>kerala</option>
+                                                    <option>Seoul</option>
+                                                </datalist>
+                                                <div class="input-group-append">
+                                                <input type="submit" name="s1" value="Search"
+                                                       class="btn btn-outline-primary btn-fw"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            </thead>
+                        </table>
+                        <p>Featured Tours Packages!</p>
+                        <h4 class="font-weight-normal mb-0 secondary-text">Favourite Places:</h4>
+                        <div class="row">
+                            <div class="col-md-12 grid-margin transparent">
+                                <div class="row">
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="##" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://www.holidify.com/images/bgImages/INDIA.jpg"  style="border-radius: 20px">
+                                            <div class="card-body">
+                                                <p class="mb-4"><span class="rating">⭐⭐⭐⭐⭐ </span></p>
+                                                <p class="fs-30 mb-2">Taj Mahal</p>
+                                                <p class="mb-4"><i style="font-size:11px" class="fa fa-rupee"></i>1800 / Per Person</p>
+                                                <p class="mb-4">🕓 3 Days</p>
+                                                <p class="mb-4">Delhi</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="##" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://www.holidify.com/images/cmsuploads/compressed/WayanadChuramthamarasseri_20201126105738.jpg" style="border-radius: 20px">
+                                            <div class="card-body">
+                                                <p class="mb-4"><span class="rating">⭐⭐⭐⭐⭐</span></p>
+                                                <p class="fs-30 mb-2">Wayanad</p>
+                                                <p class="mb-4"><i style="font-size:11px" class="fa fa-rupee"></i>1000 / Per Person</p>
+                                                <p class="mb-4">🕓 3 Days</p>
+                                                <p class="mb-4">Kerala</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="##" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_504337015_20190705171629.jpg"  style="border-radius: 20px">
+                                            <div class="card-body">
+                                                <p class="mb-4"><span class="rating">⭐⭐⭐⭐⭐</span></p>
+                                                <p class="fs-30 mb-2">Kuttanad</p>
+                                                <p class="mb-4"><i style="font-size:11px" class="fa fa-rupee"></i>1800 / Per Person</p>
+                                                <p class="mb-4">🕓 3 Days</p>
+                                                <p class="mb-4">Kerala</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="##" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://www.holidify.com/images/cmsuploads/compressed/4182528602_dab87a317c_b_20190207124130jpg" style="border-radius: 20px; height: 380px">
+                                            <div class="card-body">
+                                                <p class="mb-4"><span class="rating">⭐⭐⭐⭐⭐</span></p>
+                                                <p class="fs-30 mb-2">Munnar</p>
+                                                <p class="mb-4"><i style="font-size:11px" class="fa fa-rupee"></i>1000 / Per Person</p>
+                                                <p class="mb-4">🕓 3 Days</p>
+                                                <p class="mb-4">Kerala</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</form>
+{% endblock %}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="/static/asset/vendors/feather/feather.css">
+    <link rel="stylesheet" href="/static/asset/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="/static/asset/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="/static/asset/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="/static/asset/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="/static/asset/js/select.dataTables.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/static/asset/css/vertical-layout-light/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="/static/asset/images/favicon.png"/>
+
+{#  EXTERNAL LINKS  #}
+{#    <link rel="stylesheet" href="/static/asset/external/css/res-feedback.css"/>#}
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/8a78e192ec.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+{#            <a class="navbar-brand brand-logo mr-5" href="/admin_dashboard"><img src="/static/asset/images/mine/MediCare.png"#}
+{#                                                                                 class="mr-2" alt="logo"/></a>#}
+{#            <a class="navbar-brand brand-logo-mini" href="/admin_dashboard"><img#}
+{#                    src="/static/asset/images/mine/MediCare.png"#}
+{#                    alt="logo"/></a>#}
+            <marquee>Welcome :D </marquee>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-lg-start">
+        </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+
+            <ul class="nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/home">
+                        <i class="fa-solid fa-house menu-icon"></i>
+                        <span class="menu-title">Home</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/search_by_place">
+                        <i class="fa-solid fa-magnifying-glass menu-icon"></i>
+                        <span class="menu-title">Search Page</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="collapse" href="#complaint" aria-expanded="false"
+                       aria-controls="complaint">
+                        <i class="fa-solid fa-message menu-icon"></i>
+                        <span class="menu-title">Complaint</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/view_packages">
+                        <i class="fa-solid fa-box-open menu-icon"></i>
+                        <span class="menu-title">View Package</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        <i class="fa-solid fa-arrow-right-from-bracket menu-icon"></i>
+                        <span class="menu-title">Logout</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+            <div class="content-wrapper">
+
+                {% block body %}
+
+                {% endblock %}
+
+            </div>
+            <footer class="footer">
+                <div class="d-sm-flex justify-content-center justify-content">
+                    <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">
+                        Hackathon
+                    </span>
+                </div>
+            </footer>
+            <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
+
+<!-- plugins:js -->
+<script src="/static/asset/vendors/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page -->
+<script src="/static/asset/vendors/chart.js/Chart.min.js"></script>
+<script src="/static/asset/vendors/datatables.net/jquery.dataTables.js"></script>
+<script src="/static/asset/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+<script src="/static/asset/js/dataTables.select.min.js"></script>
+
+<!-- End plugin js for this page -->
+<!-- inject:js -->
+<script src="/static/asset/js/off-canvas.js"></script>
+<script src="/static/asset/js/hoverable-collapse.js"></script>
+<script src="/static/asset/js/template.js"></script>
+<script src="/static/asset/js/settings.js"></script>
+<script src="/static/asset/js/todolist.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page-->
+<script src="/static/asset/js/dashboard.js"></script>
+<script src="/static/asset/js/Chart.roundedBarCharts.js"></script>
+<!-- End custom js for this page-->
+
+{# ===========EXTRENAL LINKS=====================================================#}
+
+{#<script src="/static/asset/external/js/res-feedback.js"></script>#}
+
+</div>
+</div>
+</body>
+
+</html>

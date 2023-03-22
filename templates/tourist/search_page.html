@@ -1,0 +1,170 @@
+{% extends 'dashboard.html' %}
+{% block body %}
+
+    <form id="form1" name="form1" method="post" action="/search_by_place_post">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <table>
+                            <thead>
+                            <tr>
+                                <div class="form-group row">
+                                    <label for="hospital" class="card-title col-sm-3 col-form-label">DESTINATIONS</label>
+                                    <div class="col-sm-9">
+                                        <div class="input-group">
+                                            <input type="text" name="search" class="form-control border-right-0" placeholder="Search Approved Tourist Destinations"/>
+                                            <div class="input-group-append">
+                                                <input type="submit" name="s1" value="Search" class="btn btn-sm btn-outline-primary btn-fw"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            </thead>
+                        </table>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-md-6 grid-margin transparent">
+                                <div class="row">
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="/agra_details" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://tse2.mm.bing.net/th?id=OIP.Aq_PPxkhTILH3hnR6Ib4BwHaFj&amp;pid=Api&amp;P=0"  style="border-radius: 20px">
+                                            <div class="card-body">
+                                                <p class="mb-4">Agra</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="/munnar_details" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://tse1.mm.bing.net/th?id=OIP.BV8VWdVmvaVYHoVi8aHhQwHaFj&pid=Api&P=0"  style="border-radius: 20px">
+                                            <div class="card-body">
+                                                <p class="mb-4">Munnar</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="/koda_details" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://tse2.mm.bing.net/th?id=OIP.oYRA-BRTbD8dqfypC6wSxAHaFB&pid=Api&P=0"  style="border-radius: 20px">
+                                            <div class="card-body">
+                                                <p class="mb-4">Kodaikkanal</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="/kuttanad_details" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://tse1.mm.bing.net/th?id=OIP.lhEx1BuY-4hmpR0lqGMtqgHaEe&pid=Api&P=0" style="border-radius: 20px; height: 175px; overflow: hidden;">
+                                            <div class="card-body">
+                                                <p class="mb-4">Kuttanad</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 grid-margin transparent">
+                            <div class="row">
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="/kashmir_details" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://tse3.mm.bing.net/th?id=OIP.eDloKbQozL6Q4vfHlLerpQHaEN&pid=Api&P=0"  style="border-radius: 20px; height: 190px">
+                                            <div class="card-body">
+                                                <p class="mb-4">Kashmeer</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="#" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://tse4.mm.bing.net/th?id=OIP.RYgLWPFUgWE1TEAgKbn5PwHaI5&pid=Api&P=0" style="border-radius: 20px; height: 200px; ">
+                                            <div class="card-body">
+                                                <p class="mb-4">kulu Manali</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                 </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="#" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://tse3.mm.bing.net/th?id=OIP.eDloKbQozL6Q4vfHlLerpQHaEN&pid=Api&P=0"  style="border-radius: 20px">
+                                            <div class="card-body">
+                                                <p class="mb-4">Kashmeer</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 mb-4 stretch-card transparent">
+                                        <a href="#" class="card card-tale card-dark-blue card-link">
+                                            <img src="https://tse1.mm.bing.net/th?id=OIP.lhEx1BuY-4hmpR0lqGMtqgHaEe&pid=Api&P=0" style="border-radius: 20px; height: 175px; overflow: hidden;">
+                                            <div class="card-body">
+                                                <p class="mb-4">Kuttanad</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                 </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 grid-margin transparent">
+                <div class="row">
+
+                    <div class="col-md-6 mb-4 stretch-card transparent">
+                        <a href="/view_arjunCottage" class="card card-tale card-dark-blue card-link">
+                            <div class="card-body">
+                                <p class="mb-4">phone no: 9876459044</p>
+                                <p class="fs-30 mb-2">Arjun Cottage</p><br>
+                                <p>view more</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 mb-4 stretch-card transparent">
+                        <a href="/view_orion" class="card card-light-blue card-link">
+                            <div class="card-body">
+                                <p class="mb-4">phone no:9876645782</p>
+                                <p class="fs-30 mb-2">Orion Beach</p>
+                                <br>
+                                <p>View more</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6 mb-4 stretch-card transparent">
+                        <a href="/view_hamuse" class="card card-tale card-light-danger card-link">
+                            <div class="card-body">
+                                <p class="mb-4">phone no: 9072345378</p>
+                                <p class="fs-30 mb-2">Hamuse Resort</p>
+                                <br>
+                                <p>View More</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4 stretch-card transparent">
+                        <a href="/view_florra" class="card card-tale card-link">
+                            <div class="card-body">
+                                <p class="mb-4">phone no: 9867439012</p>
+                                <p class="fs-30 mb-2">Florra Inn</p>
+                                <br>
+                                <p>View More</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 stretch-card transparent">
+
+                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_Eh4ZBX.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+            </div>
+        </div>
+    </form>
+
+
+{% endblock %}

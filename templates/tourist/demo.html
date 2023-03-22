@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Home</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="/static/asset/vendors/feather/feather.css">
+  <link rel="stylesheet" href="/static/asset/vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="/static/asset/vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/static/asset/css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="/static/asset/images/favicon.png" />
+</head>
+<body>
+<div class="col-md-12 grid-margin">
+        <div class="row">
+            <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                <h2 class="font-weight-bold">Welcome to Medicare</h2>
+                <h4 class="font-weight-normal mb-0 secondary-text">Online Consultancy & Medicine Purchase</h4>
+            </div>
+            <div class="col-12 col-xl-4">
+                  </div>
+    </div>
+                <form name="form1" method="post" action="/search_by_place">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <table>
+                            <thead>
+                            <tr>
+                                <div class="form-group row">
+                                    <label for="hospital" class="card-title col-sm-3 col-form-label">Hello</label>
+                                    <div class="col-sm-9">
+                                        <div class="input-group">
+                                            <input type="text" name="search"
+                                                   class="form-control border-right-0"
+                                                   placeholder="Search by Place"/>
+                                            <div class="input-group-append">
+                                                <input type="submit" name="s1" value="Search"
+                                                       class="btn btn-sm btn-outline-primary btn-fw"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            </thead>
+                        </table>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="table-responsive">
+                                    <table id="example" class="display expandable-table" style="width:100%">
+                                        <thead align="center">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Address</th>
+                                            <th>Contact</th>
+                                            <th>Date</th>
+                                            <th>Time</th>
+                                            <th>&nbsp;</th>
+                                        </tr>
+                                        </thead>
+{#                                        <tbody class="font-weight-500">#}
+{#                                        {% for i in data %}#}
+{#                                            <tr>#}
+{#                                                <td>&nbsp;{{ loop.index }}</td>#}
+{#                                                <td align="center">&nbsp;#}
+{#                                                    <img src="{{ i['img'] }}" style="height: 100px; width: 100px"><br>#}
+{#                                                    {{ i['pat_name'] }}#}
+{#                                                </td>#}
+{#                                                <td>&nbsp;#}
+{#                                                    <address>#}
+{#                                                        {{ i['address'] }}<br>#}
+{#                                                        {{ i['pat_place'] }}<br>#}
+{#                                                        {{ i['post'] }}<br>#}
+{#                                                        {{ i['pin'] }}<br>#}
+{#                                                        {{ i['district'] }}#}
+{#                                                    </address>#}
+{#                                                </td>#}
+{#                                                <td>&nbsp;#}
+{#                                                    {{ i['pat_number'] }}<br>#}
+{#                                                    {{ i['pat_email'] }}#}
+{#                                                </td>#}
+{#                                                <td> {{ i['book_date'] }}</td>#}
+{#                                                <td>&nbsp;{{ i['book_time'] }}</td>#}
+{##}
+{#                                                <td align="center"><a href="/doctor_add_prescription/{{ i['db_id'] }}"#}
+{#                                                       class="btn btn-lg btn-outline-primary">Add#}
+{#                                                    prescription</a></td>#}
+{#                                            </tr>#}
+{#                                        {% endfor %}#}
+{#                                        </tbody>#}
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+           <footer class="footer">
+                <div class="d-sm-flex justify-content-center justify-content">
+                    <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">
+                        Hackathon 2023
+                    </span>
+                </div>
+            </footer>
+            <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
+
+<!-- plugins:js -->
+<script src="/static/asset/vendors/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page -->
+<script src="/static/asset/vendors/chart.js/Chart.min.js"></script>
+<script src="/static/asset/vendors/datatables.net/jquery.dataTables.js"></script>
+<script src="/static/asset/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+<script src="/static/asset/js/dataTables.select.min.js"></script>
+
+<!-- End plugin js for this page -->
+<!-- inject:js -->
+<script src="/static/asset/js/off-canvas.js"></script>
+<script src="/static/asset/js/hoverable-collapse.js"></script>
+<script src="/static/asset/js/template.js"></script>
+<script src="/static/asset/js/settings.js"></script>
+<script src="/static/asset/js/todolist.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page-->
+<script src="/static/asset/js/dashboard.js"></script>
+<script src="/static/asset/js/Chart.roundedBarCharts.js"></script>
+<!-- End custom js for this page-->
+
+{# ===========EXTRENAL LINKS=====================================================#}
+
+{#<script src="/static/asset/external/js/res-feedback.js"></script>#}
+
+</div>
+</div>
+</body>
+</html>
